@@ -50,3 +50,66 @@ print(type(tup1))
 set1= {1,4,5,"Geeks", 6.0}
 print(set1)
 print(type(set1))
+
+Dict1 = {}
+print("Empty Dictionary: ", Dict1, type(Dict1))
+dict2 = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+print("Numeric key dictionary: ",dict2)
+dict3 = {'Name': 'Geeks', 1: [1,2,3,4]}
+print("Mixed Key Dictionary: ",dict3)
+dict4 = dict({(1,'Geeks'),(2, 'For'), (3, 'Geeks')})
+print("Dictionary using dict function: ",dict4)
+print('--------------------------------------------------')
+
+#OPERATORS
+# 1. ARITHMETIC OPERATORS
+#ADDITION
+print(2+3)
+print(2.5 + 3.5)
+print(2.5 + 3)
+print(True + True)
+print("------------------")
+#SUBTRACTION
+print(2-3)
+print(2.5 - 3.5)
+print(2.5 - 3)
+print(True - True)
+print("------------------")
+#MULTIPLICATION
+print(2*3)
+print(2.5 * 3.5)
+print(2.5 * 3)
+print(True * True)
+print("------------------")
+#DIVISION
+print(3/2)
+print(2.5 / 5.0)
+print(2.5 / 1)
+print(True / True)
+print("------------------")
+#FLOOR DIVISION
+print(3//2)
+print(2.5 // 5.0)
+print(2.5 // 1)
+print(True // True)
+print("------------------")
+#MODULO
+print(3%2)
+print(2.5 % 5.0)
+print(2.5 % 1)
+print(True % True)
+print("------------------")
+#EXPONENTIATION
+print(3**2)
+print(2.5 ** 5.0)
+print(2.5 ** 1)
+print(True ** True)
+print("------------------")
+#ABS
+print(abs(-35))
+#ROUND
+print("Rounding of the no. 3.4467567 upto 2 decimals is: ",round(3.4467567, 2))
+print("------------------")
+#POW
+print("The power of 3 to the power 5 is: ",pow(3,5))
+
