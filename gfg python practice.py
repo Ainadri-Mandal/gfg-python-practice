@@ -1,0 +1,6 @@
+print("hello world")
+print("i am ainadri mandal")
+print(type(23423))
+print(type(1.56))
+print(type(True))
+print(type("hello world"))
