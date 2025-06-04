@@ -112,5 +112,119 @@ print("Rounding of the no. 3.4467567 upto 2 decimals is: ",round(3.4467567, 2))
 print("------------------")
 #POW
 print("The power of 3 to the power 5 is: ",pow(3,5))
+print("------------------")
+#Comparison Operators
 
-# new line
+x=5
+y=7
+
+print('is x equal to y -', x==y)
+print('is x not equal to y -', x!=y)
+print('is x greater than y -', x>y)
+print('is x less than y -', x<y)
+print('is x less than or equal to y -', x<=y)
+print('is x greater than or equal to y -', x>=y)
+print("------------------")
+# LEFT SHIFT
+
+a = 5  # Binary: 0b101
+result = a << 1  # Binary: 0b1010 (Left shift by 1 position)
+print("Left shift of 5 is : ",result)
+print("------------------")
+
+# RIGHT SHIFT
+
+a = 20  #binary - 0b10100
+result = a >> 2  #shifts right by 2 position- 0b00101->5
+print("Right shift of 20 is : ",result)
+print("------------------")
+
+#TYPECASTING
+
+#int
+print(3.14)
+print(int(3.14))
+print(int('1454'))    #only when no. is in string it can be converted into an integer NO CHARACTER for str to int coversion
+print(int(False))
+print(int(False + True + True))
+print("----------------------")
+#float
+print(float(3))
+print(float(True))
+print((float('10.5')))
+print("----------------------")
+
+#String
+print(str(132))
+print(str(123.13))
+print(str(True))
+print("----------------------")
+
+#Bool
+print((bool(1)))
+print((bool(1252353646)))
+print((bool(-635436)))
+print(bool(0))
+print((bool(0.0)))
+print(bool(525353.8866))
+print((bool('Ainadri')))
+print(bool('A'))
+print("----------------------")
+
+print("--------EXCEPTIONS--------")
+print(int(float('3.14'))) #This requires a two step process to be done
+print(float(int(3.14)))   #We will not get 3.14 back we will get 3.0
+
+
+#STRING FUNCTIONS
+#Concatenation
+print('Ainadri'+ ' ' + 'Mandal')
+#String Replication
+print('Ainadri'* 5)
+print('-' * 20)
+#String Length
+print(len('AinadriMandal'))
+print(len('Ainadri Mandal'))
+print('-' * 20)
+#String Slicing
+print('Ainadri Mandal'[0])
+print('Ainadri Mandal'[-14])
+print('Ainadri Mandal'[0:7])
+print('Ainadri Mandal'[8:14])
+print('Ainadri Mandal'[3:])
+print('Ainadri Mandal'[:8])
+print('-' * 20)
+
+#String Case Conversion
+print('Ainadri Mandal'.lower())
+print('Ainadri Mandal'.upper())
+print('-' * 20)
+
+#String Stripping
+print('   Ainadri Mandal    ')
+print('   Ainadri Mandal    '.strip())
+print('   Ainadri       Mandal    '.strip())
+print('-' * 20)
+
+#String Replacing
+print('Ainadri Mandal')
+print('Ainadri Mandal'.replace('a','-'))
+print('-' * 20)
+
+#String Count
+print('Ainadri Mandal')
+print('Ainadri Mandal'.count('a'))
+print('Ainadri Mandal'.lower().count('a'))
+print('-' * 20)
+
+#String Find
+print('Ainadri Mandal')
+print('Ainadri Mandal'.find('Ain'))
+print('Ainadri Mandal'.find('Man'))
+print('-' * 20)
+#String Check
+print('Ainadri'.isalpha())
+print('1345'.isdigit())
+print('A M'.isupper())
+print('ainadri'.islower())
+print('-' * 20)
