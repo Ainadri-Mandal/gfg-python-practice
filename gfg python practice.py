@@ -228,3 +228,66 @@ print('1345'.isdigit())
 print('A M'.isupper())
 print('ainadri'.islower())
 print('-' * 20)
+
+#String Capitalization
+print('aINADRI Mandal')
+print('aINADRI Mandal'.capitalize())
+print('-' * 20)
+
+#Checkfor start and end
+print('Ainadri Mandal')
+print('Ainadri Mandal'.startswith('Ain'))
+print('Ainadri Mandal'.endswith('dal'))
+print('-' * 20)
+
+#String length aligning and positioning
+print('Ainadri Mandal'.center(20, "-"))
+print('Ainadri Mandal'.rjust(20, '-'))
+print('Ainadri Mandal'.ljust(20, '-'))
+print('-' * 20)
+
+#String Formatting
+
+#Default order
+str = "{} {} {}".format('Ainadri', 'is', 'Engineer')
+print("The default string is: ", str)
+
+#Positional Formatting
+str1 = "{1} {0} {2}".format('Ainadri', 'is', 'Engineer')
+print('\nPrint String in Positional order:', str1)
+
+#Keyword Formatting
+str2 = '{l} {f} {g}'.format(g='Ainadri', f = 'is', l="Engineer")
+print('\nPrint string in order of keywords: ', str2)
+print('-' * 20)
+
+#Variable
+#Ways to assign values to a variable
+
+a=5
+b=10
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a**b)
+
+a = 5
+b = 4
+c = 6
+d = 8
+#or we can also write it as
+
+a, b, c, d = 7, 5, 8, 3
+print(a,b,c,d)
+
+#FOR LOOP
+#Using range()
+for i in range(5):
+    print(i)
+
+for i in range(1, 10, 2):    #You can also specify start, stop, and step:
+    print(i)
+
+#
+
