@@ -282,12 +282,73 @@ a, b, c, d = 7, 5, 8, 3
 print(a,b,c,d)
 
 #FOR LOOP
+
 #Using range()
 for i in range(5):
     print(i)
-
+print('-' * 20)
 for i in range(1, 10, 2):    #You can also specify start, stop, and step:
     print(i)
+print('-' * 20)
 
-#
+#Looping through a List
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+print('-' * 20)
+
+#Looping through a String
+for char in "hello":
+    print(char)
+print('-' * 20)
+#Loop with else
+for i in range(3):
+    print(i)
+else:
+    print("Loop completed")
+print('-' * 20)
+
+#Using break and continue
+for i in range(5):
+    if i == 3:         #break — exit the loop early:
+        break
+    print(i)
+print('-' * 20)
+for i in range(5):
+    if i == 3:         #continue — skip current iteration:
+        continue
+    print(i)
+print('-' * 20)
+
+#Looping through a Dictionary
+my_dict = {"a": 1, "b": 2}
+for key in my_dict:
+    print(key)
+
+for value in my_dict.values():
+    print(value)
+
+for key, value in my_dict.items():
+    print(key, value)
+print('-' * 20)
+
+#Using enumerate()
+names = ["Alice", "Bob", "Charlie"]
+for index, name in enumerate(names):
+    print(index, name)
+print('-' * 20)
+
+#Using zip()
+names = ["Alice", "Bob"]     #To loop over two (or more) sequences at once:
+scores = [85, 92]
+for name, score in zip(names, scores):
+    print(f"{name} scored {score}")
+print('-' * 20)
+
+#Nested for Loops
+for i in range(3):
+    for j in range(2):
+        print(f"i={i}, j={j}")
+print('-' * 20)
+
 
