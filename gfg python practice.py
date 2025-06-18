@@ -351,4 +351,19 @@ for i in range(3):
         print(f"i={i}, j={j}")
 print('-' * 20)
 
+#DATA STRUCTURES
+# LIST
 
+lst = ['Ainadri', 'Soumya', 'Subhankar', 'Jhimli', 'Aindrila', 'Rimli']
+
+print(lst)
+
+print(lst[0])
+print(lst[4])
+print(lst[-1])
+print('-'* 50)
+
+#Modify the values in list using indexing
+print(lst)
+lst[2] = 'Dorankar'
+print(lst)

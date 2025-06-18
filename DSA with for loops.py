@@ -25,3 +25,4 @@ for num in arr:
     if target == num:
         count += 1
 print(f"Input {target} has appeared {count} times in the list.")
+
