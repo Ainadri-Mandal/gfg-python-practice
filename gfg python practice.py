@@ -367,3 +367,10 @@ print('-'* 50)
 print(lst)
 lst[2] = 'Dorankar'
 print(lst)
+print('-'* 50)
+
+#Slicing
+print("The slicing value is : ",lst[1:4])
+print('-'* 50)
+
+#Reverse a string
