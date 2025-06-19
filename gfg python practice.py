@@ -421,4 +421,31 @@ print('-'* 50)
 
 #Find the maximum and the minimum in the list
 
+lst = [3,5,7,4,3,5,7,4,43,9]
+print(lst)
+print("The minimum value of the list is : ",min(lst))
+print("The maximum value of the list is : ",max(lst))
+print('-'* 50)
 
+#Iterating through the elements of the list | Direct
+
+print(lst)
+
+for i in lst:
+    print(i)
+print('-' * 50)
+
+#Iterating through the elements of the list | Indexing
+print(lst)
+
+for i in range(len(lst)):
+    print(i, lst[i])
+print('-' * 50)
+
+#Iterating through the elements of the list in reverses
+
+print(lst)
+
+for i in range(len(lst)-1, -1, -1 ):
+    print(i, lst[i])
+print('-' * 50)
