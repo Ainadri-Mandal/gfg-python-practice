@@ -449,3 +449,36 @@ print(lst)
 for i in range(len(lst)-1, -1, -1 ):
     print(i, lst[i])
 print('-' * 50)
+
+#MULTI DIMENSIONAL LIST
+
+lst = [[1,2,3],[4,5,6],[7,8,9]]
+print(lst)
+print('-' * 50)
+
+#Accesing the elements
+print(lst)
+print(lst[0])
+print(lst[0][0])
+print(lst[1][2])
+print('-' * 50)
+
+#Modify the values
+print(lst)
+lst[1][2] = 9
+print(lst)
+lst[1] = ['Ainadri', 21]
+print(lst)
+print('-' * 50)
+
+#Appending the values in list
+print(lst)
+lst.append([9,10,11])
+print(lst)
+print('-' * 50)
+
+#Delete the index
+print(lst)
+del lst[0]
+print(lst)
+print('-' * 50)
