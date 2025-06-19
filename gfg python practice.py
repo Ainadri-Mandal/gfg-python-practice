@@ -482,3 +482,29 @@ print(lst)
 del lst[0]
 print(lst)
 print('-' * 50)
+
+#Reverse
+lst = [[1,2,3], [4,5,6], [7,8,9]]
+print(lst)
+print(lst[::-1])
+print('-' * 50)
+
+#Accesing all the elements in the list
+print(lst)
+
+for i in lst:
+    for j in i:
+        print(j)
+print('-' * 50)
+
+#LIST COMPREHENSION
+lst = [1,2,3,4,5,6]    #squaring all the elements of the list
+print(lst)
+lst = [i**2 for i in lst ]      #in compressed format
+print(lst)
+
+# Finding 1st 10 even numbers
+
+
+
+
