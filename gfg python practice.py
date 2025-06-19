@@ -370,7 +370,55 @@ print(lst)
 print('-'* 50)
 
 #Slicing
+print(lst)
 print("The slicing value is : ",lst[1:4])
 print('-'* 50)
 
 #Reverse a string
+print(lst)
+print(lst[::-1])
+print(lst[::-2])
+
+#Appending
+print('-'* 50)
+print(lst)
+lst.append("Priyankar")
+print(lst)
+print('-'* 50)
+
+#Removing
+
+print(lst)
+lst.remove("Priyankar")
+print(lst)
+print('-'* 50)
+
+#Sorting
+
+lst = [3,5,7,4,3,5,7,4,43,9]
+print(lst)
+print(sorted(lst))
+print('-'* 50)
+
+#Find the element
+
+lst = ['Ainadri', 'Soumya', 'Subhankar', 'Jhimli', 'Aindrila', 'Rimli']
+print("The index of Ainadri in the list is: ",lst.index('Aindrila'))
+print('-'* 50)
+
+#Count the element in the list
+print(lst)
+lst = ['Ainadri', 'Soumya', 'Aindrila', 'Subhankar', 'Aindrila', 'Jhimli', 'Aindrila', 'Rimli']
+print(lst)
+print("The count of Aindrila in the updated list is: ",lst.count("Aindrila"))
+print('-'* 50)
+
+#Extending the list
+
+lst.extend(['Ankit', 'Ankush', 'Pragya', 'Swati'])
+print(lst)
+print('-'* 50)
+
+#Find the maximum and the minimum in the list
+
+
