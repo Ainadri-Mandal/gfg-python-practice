@@ -502,9 +502,10 @@ lst = [1,2,3,4,5,6]    #squaring all the elements of the list
 print(lst)
 lst = [i**2 for i in lst ]      #in compressed format
 print(lst)
+print('-' * 50)
 
 # Finding 1st 10 even numbers
-
-
-
+lst = [i for i in range(10) if i%2 == 0]
+print(lst)
+print('-' * 50)
 
