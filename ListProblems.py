@@ -17,11 +17,18 @@ print(f"The list of even no.s within {n} range is: ",[i for i in range(n) if i%2
 print('-'*50)
 
 #WITH MULTI DIMENSIONAL LISTS
-print("Here the range to 5 is printed 3 times: ",[[j for j in range(5)] for i in range(3)])
+print("Here the range to 5 is printed 3 times: ",[[j for j in range(1,5)] for i in range(3)])
 #here j list is printed 5 times due to range 5 in i list
 print('-'*50)
 
 #Example 2
+lst = [[j for j in range(1,5)] for i in range(3)]
+print([[j for j in range(1,5)] for i in range(3)])
+print('-'*50)
+print(lst)
+print('-'*50)
+#Example 3
 
 lst = [[1,2,3],[4,5,6],[7,8,9]]
 print("The elements of all the rows in list are : ",[j for i in lst for j in i])
+
