@@ -52,10 +52,20 @@ print(10 in dct)
 print('1' in dct)
 print('-' * 50)
 
-#dct merging in dictionaries
+#dct Updating in dictionaries
 
 dct_1 = {1: 'A', 2: 'B', 3 : 'C' }
 dct_2 = {1 : 'a', 2 : 'b', 3 : 'c'}
 
-dct_1.update
+dct_1.update(dct_2)  #dct_1 keys & value are updated by k and v of dct_2
+print("The dict_1 gets overwritten by the values of dict_2 : ",dct_1)       # As both the dict have same keys so it was overwritten by dict_2
+print('-' * 50)
+
+dct_2 = {4 : 'a', 5 : 'b', 6 : 'c'}
+dct_1.update(dct_2)
+print("The updated dct_1 is after changing the keys in dict_2 : ",dct_1)
+
+#Merging using | operator
+merged = dct_1 | dct_2
+print("Merged dictionary using | operator (only works on py 3.9+) :",merged)
 
