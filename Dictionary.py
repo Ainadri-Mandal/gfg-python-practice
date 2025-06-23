@@ -46,6 +46,16 @@ for k,v in dct.items():
 print('-' * 50)
 
 #Check if key is present
+print(dct)
+print(1 in dct)
+print(10 in dct)
+print('1' in dct)
+print('-' * 50)
 
+#dct merging in dictionaries
 
+dct_1 = {1: 'A', 2: 'B', 3 : 'C' }
+dct_2 = {1 : 'a', 2 : 'b', 3 : 'c'}
+
+dct_1.update
 
