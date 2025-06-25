@@ -68,6 +68,7 @@ print("The updated dct_1 is after changing the keys in dict_2 : ",dct_1)
 #Merging using | operator
 merged = dct_1 | dct_2
 print("Merged dictionary using | operator (only works on py 3.9+) :",merged)
+print('-' * 50)
 
 #Dictionary methods
 # dict.clear() - Remove all the elements from the dictionary
@@ -92,3 +93,52 @@ print("Merged dictionary using | operator (only works on py 3.9+) :",merged)
 # dict.has_key(key) - returns true if the dictionary contains the specified key.
 #
 # dict.get(key, default = “None”) - used to get the value specified for the passed key.
+
+
+# MULTI DIMENSIONAL DICTIONARY
+
+dct = { 1 : {'name' : 'Ainadri', 'phone': 123456789},
+        2 : {'name' : 'Subhankar', 'phone': 123456789},
+        3 : {'name' : 'Soumya', 'phone': 123456789}}
+print(dct)
+print('-' * 50)
+
+#Accesing the Elements
+print(dct)
+print(dct[1])
+print(dct[1]['name'])
+
+#Adding
+print(dct)
+dct[4] = {'name': 'Jhimli', 'phone': 123456789}
+print(dct)
+print('-' * 50)
+
+#Updating
+print(dct)
+dct[2]['name'] = 'Dorankar'
+print("The name is updated from Subhankar to Dorankar in Roll No. 2 : ",dct)
+print('-' * 50)
+
+#Deleting
+print(dct)
+del dct[4]
+print(dct)
+print('-' * 50)
+
+
+#Going through the data
+
+print(dct)
+
+print(dct)
+
+for i in dct.keys():
+    print(i, dct[i]['name'],dct[i]['phone'])
+print('-' * 50)
+
+#Going a level deeper with marks
+
+data = { 1 : {'name' : 'Ainadri', 'phone': 123456789, 'marks': {''}},
+         2 : {'name' : 'Subhankar', 'phone': 123456789, },
+         3 : {'name' : 'Soumya', 'phone': 123456789, }}
