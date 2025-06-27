@@ -23,3 +23,33 @@ def greet(n='-----'):
 greet('Ainadri')
 greet(str(input("Enter a string: ")))
 greet()
+print('-'*50)
+
+
+def Sum(a = 0,b = 0):
+    print(a,b,a+b)
+Sum(5,6)
+Sum()
+Sum(int(input("Enter the value of a: ")), int(input("Enter the value of b: ")))
+print('-'*50)
+
+#Return
+def Sum(a = 0,b = 0):
+    return a+b
+
+s = Sum(10,5)
+print(s)
+print('-'*50)
+
+#Multi Return
+def Sum(a = 0,b = 0):
+    return a+b, a-b, a*b, a/b
+
+s = Sum(10,5)
+print(s)
+print('-'*50)
+
+# Multilevel Functions
+
+
+
