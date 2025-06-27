@@ -147,7 +147,23 @@ print(data)
 for i in data.keys():
     print(i, data[i]['name'], data[i]['marks'])
     print(i,data[i]['name'],data[i]['marks']['Hindi'])
-
+print('-' * 50)
 
 #DICTIONARY COMPREHENSIONS
+
+print("Print the dictionary for key i and its square as value: ",{i : i**2 for i in range(1,6)})
+print('-' * 50)
+
+#Dictionaries with conditions
+print("Print only even cubes in a dictionary: ",{i : i**3 for i in range(1,11) if i%2 == 0})
+
+#Dictionaries from list
+lst = ['Apple','Banana', 'Grapes']
+dct = {item : len(item) for item in lst}
+print(dct)
+print('-' * 50)
+#in reverse
+print({len(item) :item  for item in lst})
+
+
 
