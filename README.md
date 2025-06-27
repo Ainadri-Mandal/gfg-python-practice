@@ -23,7 +23,7 @@ The repository is organized by topic. Each script or folder typically includes:
 - Modules and Libraries
 - Error Handling
 - Algorithms and Problem Solving
-- Mini Projects (e.g., calculator, number guessing game)
+- May include Mini Projects.
 
 ---
 
