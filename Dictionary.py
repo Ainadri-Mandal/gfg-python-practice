@@ -139,6 +139,15 @@ print('-' * 50)
 
 #Going a level deeper with marks
 
-data = { 1 : {'name' : 'Ainadri', 'phone': 123456789, 'marks': {''}},
-         2 : {'name' : 'Subhankar', 'phone': 123456789, },
-         3 : {'name' : 'Soumya', 'phone': 123456789, }}
+data = { 1 : {'name' : 'Ainadri', 'phone': 123456789, 'marks': {'Hindi': 45, "Maths": 40 , 'Science': 42}},
+         2 : {'name' : 'Subhankar', 'phone': 123456789, 'marks': {'Hindi': 24, "Maths": 45 , 'Science': 40}},
+         3 : {'name' : 'Soumya', 'phone': 123456789, 'marks': {'Hindi': 35, "Maths": 38 , 'Science': 40}}}
+print(data)
+
+for i in data.keys():
+    print(i, data[i]['name'], data[i]['marks'])
+    print(i,data[i]['name'],data[i]['marks']['Hindi'])
+
+
+#DICTIONARY COMPREHENSIONS
+
