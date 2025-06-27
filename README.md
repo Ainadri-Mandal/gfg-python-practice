@@ -31,5 +31,5 @@ The repository is organized by topic. Each script or folder typically includes:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/python-practice.git
+   git clone https://github.com/Ainadri-Mandal/gfg-python-practice.git
    cd python-practice
