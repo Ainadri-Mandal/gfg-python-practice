@@ -165,5 +165,19 @@ print('-' * 50)
 #in reverse
 print({len(item) :item  for item in lst})
 
+#Special keys from lists
 
+lst1 = ['a','b','c','d']
+lst2 = [1,2,3,4]
+
+print({lst2[i] : lst1[i] for i in range(len(lst2))})
+print('-' * 50)
+
+#Matrix
+
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+final_dct = { matrix[i][j]: (i,j) for i in range(3) for j in range(3)}
+print(final_dct)
+
+print('-' * 50)
 
