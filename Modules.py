@@ -6,6 +6,10 @@
 
 from Functions import greet, arithmetic, Sum, sq, cu, sum_func
 #from Functions import*     # to import every function from the file
+# import Functions as func
+#
+# square = func.square(6)
+# print(square)
 
 greet('Ainadri')
 
@@ -19,3 +23,4 @@ lst = [45,74,56,4,7,2]
 print("Using sq function: ", sq(lst))
 print("Using cu function: ", cu(lst))
 print("Using sum_func function: ", sum_func(lst))
+
