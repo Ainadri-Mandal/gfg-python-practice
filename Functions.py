@@ -42,10 +42,10 @@ print(s)
 print('-'*50)
 
 #Multi Return
-def Sum(a = 0,b = 0):
+def arithmetic(a = 0,b = 0):
     return a+b, a-b, a*b, a/b
 
-s = Sum(10,5)
+s = arithmetic(10,5)
 print(s)
 print('-'*50)
 
@@ -62,9 +62,11 @@ print("Multilevel Functions")
 print(sq(lst))
 print(cu(lst))
 
-def sum_func():
-    lst_1 = sq(lst)
-    lst_2 = cu(lst)
+def sum_func(input_list = None):
+    if input_list is None:
+        input_list = lst
+    lst_1 = sq(input_list)
+    lst_2 = cu(input_list)
     return [lst_1[i] + lst_2[i] for i in range(len(lst_1))]
 print(sum_func())
 
