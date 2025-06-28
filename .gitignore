@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm project settings
+.idea/
+
+# VSCode settings (if used)
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency folders
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
