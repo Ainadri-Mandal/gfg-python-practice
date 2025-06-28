@@ -106,4 +106,4 @@ print(string.hexdigits)
 print(string.octdigits)
 print('-'*50)
 
-print()
+print(string.punctuation)
