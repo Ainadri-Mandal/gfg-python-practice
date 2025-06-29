@@ -1,3 +1,6 @@
+from Dictionary import matrix
+
+
 def greet():
     print("Hello")
 greet()
@@ -71,3 +74,24 @@ def sum_func(input_list = None):
 print(sum_func())
 
 print('-'*50)
+
+
+#SPECIAL FUNCTIONS
+
+#ZIP FUNCTION
+
+lst1 = ['Ainadri', 'Soumya', 'Subhankar']
+lst2 = [25, 22, 27]
+
+print(list(zip(lst1,lst2)))
+print('-'*50)
+
+matrix = [(1,2,3),(4,5,6),(7,8,9)]
+print([list(row) for row in zip(matrix)])
+# To get the transpose of the matrix
+print([list(row) for row in zip(*matrix)])
+
+# *matrix unpacks the rows as separate arguments.
+# zip(*matrix) transposes the matrix.
+# The asterisk is essential here — it lets zip() work on rows as separate inputs.
+
