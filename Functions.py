@@ -95,3 +95,40 @@ print([list(row) for row in zip(*matrix)])
 # zip(*matrix) transposes the matrix.
 # The asterisk is essential here — it lets zip() work on rows as separate inputs.
 
+print([list (row) for row in zip(*[list(row) for row in zip(*matrix)])])
+print('-'*50)
+
+#Printing the dot product of the two matrix
+lst_1 = [2,4,6]
+lst_2 = [1,3,5]
+
+print(sum([i*j for i,j in zip(lst_1, lst_2)]))
+print('-'*50)
+
+lst = [1,2,3,4,5,6,7,8,9]
+
+#FILTER FUNCTION
+def is_even(n):
+    return n%2 == 0
+print(list(filter(is_even, lst)))
+print('-'*50)
+
+#lAMBDA FUNCTION
+add_num = lambda x,y : x*y
+print(add_num(2,5))
+print('-'*50)
+
+num = [1,2,3,4,5,6,7,8,9]
+print(list(filter(lambda x : x%2 == 0, num)))
+print('-'*50)
+
+#MAP FUNCTION
+num = [1,2,3,4,5,6,7,8,9]    #You want to apply the same operation to every item in a list/tuple.
+def sqr(x):
+    return x**2
+print(list(map(sqr,num)))
+print('-'*50)
+
+names = ['Ainadri', 'Soumya', 'Subhankar' ]
+
+print(list(map(lambda x : len(x) , names)))
